@@ -153,7 +153,7 @@ Key endpoint categories:
    **Example `.env` file:**
    ```env
    PORT=5000
-   MONGO_URI=mongodb://dibs_user:dib01@ac-fyralin-shard-00-00.dvzd3l0.mongodb.net:27017,ac-fyralin-shard-00-01.dvzd3l0.mongodb.net:27017,ac-fyralin-shard-00-02.dvzd3l0.mongodb.net:27017/?ssl=true[...]
+   MONGO_URI=
    ADMIN_USERNAME=Admin
    ADMIN_PASSWORD=12345
    ```
@@ -269,7 +269,7 @@ This includes:
 1. Set environment variables:
    ```env
    PORT=5000
-   MONGO_URI=mongodb://dibs_user:dib01@ac-fyralin-shard-00-00.dvzd3l0.mongodb.net:27017,ac-fyralin-shard-00-01.dvzd3l0.mongodb.net:27017,ac-fyralin-shard-00-02.dvzd3l0.mongodb.net:27017/?ssl=true&replicaSet=atlas-cwe79f-shard-0&authSource=admin&appName=ams
+   MONGO_URI=
    ADMIN_USERNAME=Admin
    ADMIN_PASSWORD=12345
    ```
